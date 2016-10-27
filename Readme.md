@@ -1,4 +1,4 @@
-#OnlyLoveForU
+#OnlyCake
 ##运行方式：
 1. git clone 此项目
 2. npm install 
@@ -10,7 +10,7 @@
 
 ##提交格式：
 1. 名字---提交内容
-2. eg:"cuiqian---finish first story"
+2. eg:"liuru---finish first story"
 
 ##github多人协作冲突及相关命令
 
@@ -39,11 +39,8 @@
 3. commit的格式： > git commit -m 'name - description' name: 自己github的名字，或自己的名字 description：自己提交的描述，要具体，小步提交
 
 ## npm run eslint
-1. 最小圈复杂度3
-2. 每句结束有';'
-3. 每个函数不超过15行
-4. 每个文件不超过150
-5. 单引号
+1. 每句结束有';'
+2. 单引号
 ##npm run coverage（测试覆盖率）
 
 ##npm run wpw（可以自动编译，但是浏览器需手动刷新）
