@@ -15,6 +15,27 @@ class LogIn extends Component {
     this.refs.inputPwd.value = '';
   }
 
+  checkEmail() {
+    let email = this.refs.inputName.value.trim();
+    let patt = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+$/;
+    if(!patt.test(email))
+      this.refs.emailWrongMessage.innerHTML = 'wrong format';
+    else
+      this.refs.emailWrongMessage.innerHTML = '';
+  }
+
+
+  checkPasswordFormat() {
+    let password = this.refs.inputPwd.value.trim();
+    let patt = /^.{6,13}$/;
+    if(!patt.test(password))
+      this.refs.passwordWrongFormat.innerHTML = '6 - 13位字符';
+    else
+      this.refs.passwordWrongFormat.innerHTML = '';
+  }
+
+
+
   handleKeyPress(e) {
     if (13 !== e.charCode) {
       return;
@@ -22,7 +43,6 @@ class LogIn extends Component {
     this.doAction();
   }
   render() {
-    // const user = this.props.user;
     return (
         <div>
         <div className="container">
@@ -38,9 +58,11 @@ class LogIn extends Component {
                              placeholder="Please input username"
                              ref="inputName"
                              onKeyPress={this.handleKeyPress.bind(this)}
+                             onBlur={this.checkEmail.bind(this)}
                       />
                     </div>
-                    <span className="text-danger col-md-4" id="error_show" ></span>
+                    <span className="text-danger col-md-4" ref='emailWrongMessage' ></span>
+
                   </div>
                   <div className="form-group">
                     <label htmlFor="inputEmail3" className="col-md-3 col-md-6 control-label">Password:</label>
@@ -51,9 +73,12 @@ class LogIn extends Component {
                            placeholder="Please input password"
                            ref="inputPwd"
                            onKeyPress={this.handleKeyPress.bind(this)}
+                           onBlur={this.checkPasswordFormat.bind(this)}
                     />
                     </div>
-                 </div>
+                    <span className="text-danger col-md-4" ref='passwordWrongFormat' > </span>
+
+                  </div>
                   <div className="col-lg-offset-6 col-sm-5">
                     <button onClick={this.doAction.bind(this)} type="button" className="btn btn-default"> Login Now
                     </button>

@@ -2,6 +2,7 @@ const users = (state ='登录', action)=> {
   switch (action.type) {
   case 'LOGIN_FAIR':
     return action.data;
+
   case 'LOGIN_SUCCESS':
     return action.username;
   }

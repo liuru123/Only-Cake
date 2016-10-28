@@ -26,8 +26,8 @@ class Personal extends Component {
                                 <ul className="nav nav-pills nav-stacked" role="tablist">
                                     <li><Link to='/PersonalInfo'> 个人信息</Link></li>
                                     <li><Link to='/personalCollection'> 个人收藏</Link></li>
-                                    <li><Link to="#"> 个人订单</Link></li>
-                                    <li><Link to="#"> 个人show</Link></li>
+                                    <li><Link to='/orderRecorder'> 个人订单</Link></li>
+                                    <li><Link to='/personalShow' >个人show</Link></li>
                                 </ul>
                             </div>
                             {/*<ul className="nav navbar-nav" style={{marginLeft:'60px'}}>*/}

@@ -12,6 +12,7 @@ const loginRequestMiddleware = store =>next=>action=> {// eslint-disable-line no
         })
         .end((err, data)=> {
           if (data.status===201) {
+
             browserHistory.push('/');
             next({
               type: 'Loggin_return',
@@ -21,7 +22,8 @@ const loginRequestMiddleware = store =>next=>action=> {// eslint-disable-line no
           else {
             next({
               type: 'Loggin_return',
-              username: '登录'
+              username: '登录',
+              wrongInfo:data.text           //值的考究
             });
           }
         });

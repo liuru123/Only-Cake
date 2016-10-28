@@ -3,7 +3,7 @@ webpackJsonp([0],[
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	module.exports = __webpack_require__(325);
+	module.exports = __webpack_require__(329);
 
 
 /***/ },
@@ -142,6 +142,14 @@ webpackJsonp([0],[
 
 	var _collectionMiddleware2 = _interopRequireDefault(_collectionMiddleware);
 
+	var _OrderRecorder = __webpack_require__(325);
+
+	var _OrderRecorder2 = _interopRequireDefault(_OrderRecorder);
+
+	var _personalShow = __webpack_require__(327);
+
+	var _personalShow2 = _interopRequireDefault(_personalShow);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// eslint-disable-line no-unused-vars
@@ -170,6 +178,8 @@ webpackJsonp([0],[
 	      _react2.default.createElement(_reactRouter.Route, { path: '/brandstory', component: _BrandStory2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/slideshow', component: _SlideShow2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/presoncenter', component: _PersonCenter2.default, onEnter: validateLogin }),
+	      _react2.default.createElement(_reactRouter.Route, { path: '/orderRecorder', components: _OrderRecorder2.default }),
+	      _react2.default.createElement(_reactRouter.Route, { path: '/personalShow', components: _personalShow2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/personalInfo', component: _personalInfo2.default, onEnter: validateLogin }),
 	      _react2.default.createElement(_reactRouter.Router, { path: '/personalCollection', component: _CollectionContainer2.default, onEnter: validateLogin }),
 	      _react2.default.createElement(_reactRouter.Route, { path: '/exclusive', component: _Exclusive2.default, onEnter: validateLogin }),
@@ -7966,9 +7976,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by qinqi on 16-8-23.
-	 */
 	var confirmOrderAction = exports.confirmOrderAction = function confirmOrderAction(order) {
 	  return {
 	    type: 'CONFIRM_ORDER',
@@ -8419,7 +8426,7 @@ webpackJsonp([0],[
 	                  _react2.default.createElement(
 	                    "h3",
 	                    null,
-	                    "OUR TEAM"
+	                    "OUR THEME"
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -8433,38 +8440,26 @@ webpackJsonp([0],[
 	                      null,
 	                      _react2.default.createElement(
 	                        "div",
-	                        { className: "ch-item ch-img-1", style: { background: 'url(../image/cook/01.png)' } },
+	                        { className: "ch-item ch-img-1", style: { background: 'url(../image/cook/11.jpg)', width: '200px', height: '200px' } },
 	                        _react2.default.createElement(
 	                          "div",
 	                          { className: "ch-info" },
 	                          _react2.default.createElement(
-	                            "h3",
-	                            null,
-	                            "\u79E6\u9F50&\u97E9\u4EA6\u4E50&\u738B\u6839\u65FA"
-	                          ),
-	                          _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Qinqi",
-	                            _react2.default.createElement("a", { href: "#" }),
-	                            "Hanyile"
+	                            "ONLY",
+	                            _react2.default.createElement(
+	                              "a",
+	                              { href: "#" },
+	                              "CAKE"
+	                            )
 	                          )
 	                        )
 	                      ),
 	                      _react2.default.createElement(
-	                        "h4",
-	                        null,
-	                        "\u79E6\u9F50&\u97E9\u4EA6\u4E50&\u738B\u6839\u65FA"
-	                      ),
-	                      _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        "Qinqi&Hanyile&Wanggenwang"
-	                      ),
-	                      _react2.default.createElement(
 	                        "a",
 	                        { className: "more", href: "#" },
-	                        "\u989C\u503C\u62C5\u5F53"
+	                        "Fresh Square"
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -8472,38 +8467,23 @@ webpackJsonp([0],[
 	                      null,
 	                      _react2.default.createElement(
 	                        "div",
-	                        { className: "ch-item ch-img-2", style: { background: 'url(../image/cook/02.png)' } },
+	                        { className: "ch-item ch-img-2", style: { background: 'url(../image/cook/3.jpg)', width: '200px', height: '200px' } },
 	                        _react2.default.createElement(
 	                          "div",
 	                          { className: "ch-info" },
 	                          _react2.default.createElement(
-	                            "h3",
-	                            null,
-	                            "\u738B\u5A77&\u738B\u76FC"
-	                          ),
-	                          _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Wangting",
+	                            "ONLY",
 	                            _react2.default.createElement("a", { href: "#" }),
-	                            "Wangpan"
+	                            "CAKE"
 	                          )
 	                        )
 	                      ),
 	                      _react2.default.createElement(
-	                        "h4",
-	                        null,
-	                        "\u738B\u5A77&\u738B\u76FC"
-	                      ),
-	                      _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        "Wangting&Wangpan"
-	                      ),
-	                      _react2.default.createElement(
 	                        "a",
 	                        { className: "more", href: "#" },
-	                        "\u6700\u4F73\u62CD\u6863"
+	                        "Fresh Square"
 	                      )
 	                    ),
 	                    _react2.default.createElement(
@@ -8511,38 +8491,23 @@ webpackJsonp([0],[
 	                      null,
 	                      _react2.default.createElement(
 	                        "div",
-	                        { className: "ch-item ch-img-3", style: { background: 'url(../image/cook/03.png)' } },
+	                        { className: "ch-item ch-img-3", style: { background: 'url(../image/cook/7.jpg)' } },
 	                        _react2.default.createElement(
 	                          "div",
 	                          { className: "ch-info" },
 	                          _react2.default.createElement(
-	                            "h3",
-	                            null,
-	                            "\u5D14\u5029&\u5218\u8339"
-	                          ),
-	                          _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "CuiQian",
+	                            "ONLY",
 	                            _react2.default.createElement("a", { href: "#" }),
-	                            "LiuRu"
+	                            "CAKE"
 	                          )
 	                        )
 	                      ),
 	                      _react2.default.createElement(
-	                        "h4",
-	                        null,
-	                        "\u5D14\u5029&\u5218\u8339"
-	                      ),
-	                      _react2.default.createElement(
-	                        "p",
-	                        null,
-	                        "CuiQian&LiuRu"
-	                      ),
-	                      _react2.default.createElement(
 	                        "a",
 	                        { className: "more", href: "#" },
-	                        "\u6280\u672F\u62C5\u5F53"
+	                        "Fresh Square"
 	                      )
 	                    )
 	                  )
@@ -9510,6 +9475,20 @@ webpackJsonp([0],[
 	      this.refs.inputPwd.value = '';
 	    }
 	  }, {
+	    key: 'checkEmail',
+	    value: function checkEmail() {
+	      var email = this.refs.inputName.value.trim();
+	      var patt = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+$/;
+	      if (!patt.test(email)) this.refs.emailWrongMessage.innerHTML = 'wrong format';else this.refs.emailWrongMessage.innerHTML = '';
+	    }
+	  }, {
+	    key: 'checkPasswordFormat',
+	    value: function checkPasswordFormat() {
+	      var password = this.refs.inputPwd.value.trim();
+	      var patt = /^.{6,13}$/;
+	      if (!patt.test(password)) this.refs.passwordWrongFormat.innerHTML = '6 - 13位字符';else this.refs.passwordWrongFormat.innerHTML = '';
+	    }
+	  }, {
 	    key: 'handleKeyPress',
 	    value: function handleKeyPress(e) {
 	      if (13 !== e.charCode) {
@@ -9520,7 +9499,6 @@ webpackJsonp([0],[
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      // const user = this.props.user;
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -9552,10 +9530,11 @@ webpackJsonp([0],[
 	                      id: 'inputEmail3',
 	                      placeholder: 'Please input username',
 	                      ref: 'inputName',
-	                      onKeyPress: this.handleKeyPress.bind(this)
+	                      onKeyPress: this.handleKeyPress.bind(this),
+	                      onBlur: this.checkEmail.bind(this)
 	                    })
 	                  ),
-	                  _react2.default.createElement('span', { className: 'text-danger col-md-4', id: 'error_show' })
+	                  _react2.default.createElement('span', { className: 'text-danger col-md-4', ref: 'emailWrongMessage' })
 	                ),
 	                _react2.default.createElement(
 	                  'div',
@@ -9573,8 +9552,14 @@ webpackJsonp([0],[
 	                      id: 'inputEmail3',
 	                      placeholder: 'Please input password',
 	                      ref: 'inputPwd',
-	                      onKeyPress: this.handleKeyPress.bind(this)
+	                      onKeyPress: this.handleKeyPress.bind(this),
+	                      onBlur: this.checkPasswordFormat.bind(this)
 	                    })
+	                  ),
+	                  _react2.default.createElement(
+	                    'span',
+	                    { className: 'text-danger col-md-4', ref: 'passwordWrongFormat' },
+	                    ' '
 	                  )
 	                ),
 	                _react2.default.createElement(
@@ -10898,6 +10883,7 @@ webpackJsonp([0],[
 	  switch (action.type) {
 	    case 'LOGIN_FAIR':
 	      return action.data;
+
 	    case 'LOGIN_SUCCESS':
 	      return action.username;
 	  }
@@ -10986,6 +10972,7 @@ webpackJsonp([0],[
 	var loginstate = function loginstate() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'Checking';
 	  var action = arguments[1];
+
 
 	  switch (action.type) {
 	    case 'Loggin_state_received':
@@ -11307,7 +11294,7 @@ webpackJsonp([0],[
 	                            null,
 	                            _react2.default.createElement(
 	                                _reactRouter.Link,
-	                                { to: '#' },
+	                                { to: '/orderRecorder' },
 	                                ' \u4E2A\u4EBA\u8BA2\u5355'
 	                            )
 	                        ),
@@ -11316,8 +11303,8 @@ webpackJsonp([0],[
 	                            null,
 	                            _react2.default.createElement(
 	                                _reactRouter.Link,
-	                                { to: '#' },
-	                                ' \u4E2A\u4EBAshow'
+	                                { to: '/personalShow' },
+	                                '\u4E2A\u4EBAshow'
 	                            )
 	                        )
 	                    )
@@ -13106,6 +13093,7 @@ webpackJsonp([0],[
 	            password: action.text.password
 	          }).end(function (err, data) {
 	            if (data.status === 201) {
+
 	              _reactRouter.browserHistory.push('/');
 	              next({
 	                type: 'Loggin_return',
@@ -13114,7 +13102,8 @@ webpackJsonp([0],[
 	            } else {
 	              next({
 	                type: 'Loggin_return',
-	                username: '登录'
+	                username: '登录',
+	                wrongInfo: data.text //值的考究
 	              });
 	            }
 	          });
@@ -13449,6 +13438,469 @@ webpackJsonp([0],[
 
 /***/ },
 /* 325 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _reactRedux = __webpack_require__(237);
+
+	var _orderRecorder = __webpack_require__(326);
+
+	var _orderRecorder2 = _interopRequireDefault(_orderRecorder);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var mapStateToProps = function mapStateToProps(state) {
+	    return state;
+	};
+
+	var OrderRecorderContainer = (0, _reactRedux.connect)(mapStateToProps)(_orderRecorder2.default);
+
+	exports.default = OrderRecorderContainer;
+
+/***/ },
+/* 326 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	// eslint-disable-line no-unused-vars
+
+	var OrderRecorder = function (_Component) {
+	    _inherits(OrderRecorder, _Component);
+
+	    function OrderRecorder(props) {
+	        _classCallCheck(this, OrderRecorder);
+
+	        return _possibleConstructorReturn(this, (OrderRecorder.__proto__ || Object.getPrototypeOf(OrderRecorder)).call(this, props));
+	    }
+
+	    _createClass(OrderRecorder, [{
+	        key: "render",
+	        value: function render() {
+	            var user = this.props.loginusername;
+
+	            return _react2.default.createElement(
+	                "div",
+	                null,
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "confirmpay" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "welcome-section" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "container" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "about-grid " },
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "col-md-8 about-text" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "col-md-4 about-img" },
+	                                        _react2.default.createElement("img", { src: '../image/cook/18.jpg', className: "img-responsive zoom-img",
+	                                            style: { marginLeft: '30px', width: '350px', height: '350px' }, alt: "" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { style: { marginLeft: '540px' } },
+	                                        _react2.default.createElement(
+	                                            "h4",
+	                                            null,
+	                                            "\u86CB\u7CD5\u540D\u79F0\uFF1A",
+	                                            'Tiramisu'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u8BA2\u5355\u7F16\u53F7:",
+	                                            '58134343434343434bd545444343'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u6635\u79F0:",
+	                                            user
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u8054\u7CFB\u7535\u8BDD: ",
+	                                            '13767858585'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u6536\u8D27\u5730\u5740:",
+	                                            '户县'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u5B9E\u4ED8\u4EF7\u683C:",
+	                                            188,
+	                                            "\u5143"
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u5907\u6CE8\u4FE1\u606F:",
+	                                            '草莓味儿的'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u4E0B\u5355\u65E5\u671F:",
+	                                            '2016/8/18'
+	                                        )
+	                                    )
+	                                )
+	                            )
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "confirmpay" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "welcome-section" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "container" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "about-grid " },
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "col-md-8 about-text" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "col-md-4 about-img" },
+	                                        _react2.default.createElement("img", { src: '../image/cook/14.jpg', className: "img-responsive zoom-img",
+	                                            style: { marginLeft: '30px', width: '350px', height: '350px' }, alt: "" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { style: { marginLeft: '540px' } },
+	                                        _react2.default.createElement(
+	                                            "h4",
+	                                            null,
+	                                            "\u86CB\u7CD5\u540D\u79F0\uFF1A",
+	                                            'Mango Mousse'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u8BA2\u5355\u7F16\u53F7:",
+	                                            '581343434fdfddffd34bd545444343'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u6635\u79F0:",
+	                                            user
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u8054\u7CFB\u7535\u8BDD: ",
+	                                            '13767858585'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u6536\u8D27\u5730\u5740:",
+	                                            '户县'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u5B9E\u4ED8\u4EF7\u683C:",
+	                                            188,
+	                                            "\u5143"
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u5907\u6CE8\u4FE1\u606F:",
+	                                            '樱桃味儿的'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u4E0B\u5355\u65E5\u671F:",
+	                                            '2015/8/18'
+	                                        )
+	                                    )
+	                                )
+	                            )
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "confirmpay" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "welcome-section" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "container" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "about-grid " },
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "col-md-8 about-text" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "col-md-4 about-img" },
+	                                        _react2.default.createElement("img", { src: '../image/cook/5.jpg', className: "img-responsive zoom-img",
+	                                            style: { marginLeft: '30px', width: '350px', height: '350px' }, alt: "" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { style: { marginLeft: '540px' } },
+	                                        _react2.default.createElement(
+	                                            "h4",
+	                                            null,
+	                                            "\u86CB\u7CD5\u540D\u79F0\uFF1A",
+	                                            'Hawaii'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u8BA2\u5355\u7F16\u53F7:",
+	                                            '581343434fdfddffd34bd545444343'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u6635\u79F0:",
+	                                            user
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u8054\u7CFB\u7535\u8BDD: ",
+	                                            '13767858585'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u6536\u8D27\u5730\u5740:",
+	                                            '户县'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u5B9E\u4ED8\u4EF7\u683C:",
+	                                            178,
+	                                            "\u5143"
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u5907\u6CE8\u4FE1\u606F:",
+	                                            '多加点牛奶，谢谢'
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "\u4E0B\u5355\u65E5\u671F:",
+	                                            '2014/8/18'
+	                                        )
+	                                    )
+	                                )
+	                            )
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+
+	    return OrderRecorder;
+	}(_react.Component);
+
+	exports.default = OrderRecorder;
+
+/***/ },
+/* 327 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _reactRedux = __webpack_require__(237);
+
+	var _personalShow = __webpack_require__(328);
+
+	var _personalShow2 = _interopRequireDefault(_personalShow);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var mapStateToProps = function mapStateToProps(state) {
+	    return state;
+	};
+
+	var PersonalShowContainer = (0, _reactRedux.connect)(mapStateToProps)(_personalShow2.default);
+
+	exports.default = PersonalShowContainer;
+
+/***/ },
+/* 328 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	// eslint-disable-line no-unused-vars/**
+	var personalShow = function (_Component) {
+	    _inherits(personalShow, _Component);
+
+	    function personalShow() {
+	        _classCallCheck(this, personalShow);
+
+	        return _possibleConstructorReturn(this, (personalShow.__proto__ || Object.getPrototypeOf(personalShow)).apply(this, arguments));
+	    }
+
+	    _createClass(personalShow, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                null,
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "text-center exclusive" },
+	                    _react2.default.createElement(
+	                        "h3",
+	                        null,
+	                        "\u89C1\u8BC1\u771F\u7231\xB7\u5206\u4EAB\u5E78\u798F\u65F6\u5149"
+	                    ),
+	                    _react2.default.createElement(
+	                        "h4",
+	                        null,
+	                        "\u4E66\u5199\u7231\u60C5\u751C\u871C"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "............................................."
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "ONLY FOR CAKES\u4E3A\u6BCF\u5BF9\u604B\u4EBA\u6253\u9020\u6D6A\u6F2B\u7684\u4E13\u5C5E\u7A7A\u95F4\u3002"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "\u6BCF\u5BF9\u5B9A\u5236\u8FC7\u86CB\u7CD5\u7684\u604B\u4EBA\u53EA\u8981\u4F7F\u7528ONLY FOR CAKES\u5E10\u53F7\uFF0C"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "\u5373\u53EF\u8FDB\u5165\u751C\u871C\u7684\u60C5\u4FA3\u4E13\u5C5E\u7A7A\u95F4\u3002"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "\u5728\u6B64\u5199\u4E0B\u60A8\u7684\u771F\u7231\u5BA3\u8A00\uFF0C\u5206\u4EAB\u751C\u871C\u7684\u5A5A\u7EB1\u7167\u3001\u751F\u6D3B\u7167\uFF0C"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "\u5E76\u6536\u96C6\u6765\u81EA\u56DB\u9762\u516B\u65B9\u597D\u53CB\u7684\u795D\u798F\u89C1\u8BC1\u3002"
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        _react2.default.createElement("img", { src: "image/ppp/2.jpg", style: { width: '500px', height: '300px' } })
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        _react2.default.createElement(
+	                            "div",
+	                            { id: "exclusive_01", className: "exclusive_img_style" },
+	                            _react2.default.createElement("img", { src: "image/ppp/3.png", className: "exclusive_img_size gallery-left two" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { id: "exclusive_02", className: "exclusive_img_style" },
+	                            _react2.default.createElement("img", { src: "image/ppp/5.jpg", className: "exclusive_img_size gallery-left two" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { id: "exclusive_04", className: "exclusive_img_style" },
+	                            _react2.default.createElement("img", { src: "image/ppp/7.jpg", className: "exclusive_img_size gallery-left two" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { id: "exclusive_03", className: "exclusive_img_style" },
+	                            _react2.default.createElement("img", { src: "image/ppp/8.jpg", className: "exclusive_img_size gallery-left two" })
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
+
+	    return personalShow;
+	}(_react.Component);
+
+	exports.default = personalShow;
+
+/***/ },
+/* 329 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

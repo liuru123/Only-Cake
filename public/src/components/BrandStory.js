@@ -42,42 +42,37 @@ class BrandStory extends Component {
               <div className="container">
                 <div className="team">
                   <div className="col-md-4 team-left">
-                    <h3>OUR TEAM</h3>
+                    <h3>OUR THEME</h3>
                   </div>
                   <div className="col-md-8 team-right">
                     <ul className="ch-grid">
                       <li>
-                        <div className="ch-item ch-img-1" style={{background:'url(../image/cook/01.png)'}}>
+                        <div className="ch-item ch-img-1" style={{background:'url(../image/cook/11.jpg)',width: '200px', height: '200px'}}>
                           <div className="ch-info">
-                            <h3>秦齐&韩亦乐&王根旺</h3>
-                            <p>Qinqi<a href="#"></a>Hanyile</p>
+
+                            <p>ONLY<a href="#">CAKE</a></p>
                           </div>
                         </div>
-                        <h4>秦齐&韩亦乐&王根旺</h4>
-                        <p>Qinqi&Hanyile&Wanggenwang</p>
-                        <a className="more" href="#">颜值担当</a>
+                        <a className="more" href="#">Fresh Square</a>
                       </li>
                       <li>
-                        <div className="ch-item ch-img-2" style={{background:'url(../image/cook/02.png)'}}>
+                        <div className="ch-item ch-img-2" style={{background:'url(../image/cook/3.jpg)',width: '200px', height: '200px'}}>
                           <div className="ch-info">
-                            <h3>王婷&王盼</h3>
-                            <p>Wangting<a href="#"></a>Wangpan</p>
+
+                            <p>ONLY<a href="#"></a>CAKE</p>
                           </div>
                         </div>
-                        <h4>王婷&王盼</h4>
-                        <p>Wangting&Wangpan</p>
-                        <a className="more" href="#">最佳拍档</a>
+                        <a className="more" href="#">Fresh Square</a>
                       </li>
                       <li>
-                        <div className="ch-item ch-img-3" style={{background:'url(../image/cook/03.png)'}}>
+                        <div className="ch-item ch-img-3" style={{background:'url(../image/cook/7.jpg)'}}>
                           <div className="ch-info">
-                            <h3>崔倩&刘茹</h3>
-                            <p>CuiQian<a href="#"></a>LiuRu</p>
+
+                            <p>ONLY<a href="#"></a>CAKE</p>
                           </div>
                         </div>
-                        <h4>崔倩&刘茹</h4>
-                        <p>CuiQian&LiuRu</p>
-                        <a className="more" href="#">技术担当</a>
+
+                        <a className="more" href="#">Fresh Square</a>
                       </li>
                     </ul>
                   </div>

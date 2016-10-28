@@ -20,7 +20,7 @@ const cakeList = combineReducers({
   loginusername,
   orderInfo,
   personalInfo,
-  collectionReducer
+  collectionReducer,
 });
 
 export default cakeList;

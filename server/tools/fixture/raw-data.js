@@ -113,14 +113,25 @@ export default {
 
   }],
   Order:[{
-    username:'其实我是黄蓉＿＿嘿嘿嘿',
-    name:'wangting',
-    tel:'110',
-    address:'china',
+    username:'guomemgmeng@qq.com',
+    name:'郭孟孟',
+    tel:'15454454444',
+    address:'西安市潼关区',
     more:'111',
     cakeName:'f456',
     image:'image/cakelist/02.jpg',
-    isPay:false,
+    isPay:true,
     price:100
-  }]
+  },
+    {
+      username:'Milly',
+      name:'rendandan',
+      tel:'13575858484',
+      address:'新加坡',
+      more:'111',
+      cakeName:'f456',
+      image:'image/cakelist/03.jpg',
+      isPay:true,
+      price:105
+    }]
 };

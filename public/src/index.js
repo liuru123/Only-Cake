@@ -33,6 +33,8 @@ import getOrderInfoMiddleware from './middlewares/getOrderInfoMiddleware';
 import confirmPayMiddleware from './middlewares/confirmPayMiddleware';
 import personalInfoMiddleware from './middlewares/personalInfoMiddleware';
 import personalCollecMiddleware from './middlewares/collectionMiddleware';
+import orderRecorder         from './container/OrderRecorder';
+import personalShow        from './container/personalShow';
 
 const store = createStore(
     cakeList,
@@ -60,6 +62,8 @@ render(
           <Route path="/brandstory" component={BrandStory}/>
           <Route path="/slideshow" component={Slide}/>
           <Route path="/presoncenter" component={Presoncenter} onEnter={validateLogin}/>
+          <Route path="/orderRecorder" components={orderRecorder} />
+          <Route path="/personalShow"  components={personalShow} />
           <Route path="/personalInfo" component={PersonalInfo} onEnter={validateLogin} />
           <Router path="/personalCollection" component={personalCollection} onEnter={validateLogin} />
           <Route path="/exclusive" component={Exclusive} onEnter={validateLogin}/>

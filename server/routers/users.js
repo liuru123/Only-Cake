@@ -53,7 +53,7 @@ router.post('/', (req, res, next)=> {
 router.post('/logining', (req, res) => {
     User.findOne({username: req.body.username, password: req.body.password}, (err, data)=> {
         if (!data) {
-            res.status(403).send();
+            res.status(403).send("密码错误");
         } else {
             let id = uuid.v4();
             new LoginCookie({UUID: id, username: req.body.username}).save((err, data)=> {
@@ -98,7 +98,7 @@ router.get('/logining', (req, res) => {
             res.status(200).send(data.username);
         }
         else {
-            res.sendStatus(403);
+            res.status(403).send("登录失败，请重新登录");
         }
     });
 });
