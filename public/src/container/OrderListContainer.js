@@ -1,6 +1,5 @@
-/**
- * Created by jae on 16-8-22.
- */
+
+
 import { connect } from 'react-redux';
 import {orderlistinit} from '../actions/BuyCakeInfo';
 import OrderList from '../components/OrderList';

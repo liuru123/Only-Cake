@@ -1,6 +1,5 @@
-/**
- * Created by jae on 16-8-17.
- */
+
+
 import React, {Component} from 'react';// eslint-disable-line no-unused-vars
 import {Link} from 'react-router';
 class Footer extends Component {

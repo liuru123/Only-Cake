@@ -95,8 +95,8 @@ export default {
 
   }],
   User:[{
-    username:'wangting@163.com',
-    password:'wt1234',
+    username:'rendandan@163.com',
+    password:'rdd1234',
     telphone:'',
     address:'',
     realName:''

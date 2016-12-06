@@ -32,7 +32,7 @@ import {validLogin} from './actions/validLogin';
 import getOrderInfoMiddleware from './middlewares/getOrderInfoMiddleware';
 import confirmPayMiddleware from './middlewares/confirmPayMiddleware';
 import personalInfoMiddleware from './middlewares/personalInfoMiddleware';
-import personalCollecMiddleware from './middlewares/collectionMiddleware';
+import personalCollectMiddleware from './middlewares/collectionMiddleware';
 import orderRecorder         from './container/OrderRecorder';
 import personalShow        from './container/personalShow';
 
@@ -41,7 +41,7 @@ const store = createStore(
     applyMiddleware(cakeRequestMiddleware, loginRequestMiddleware,
         signUpRequestMiddleware, cakeDetailRequestMiddleware,
         orderRequestMiddleware,getOrderInfoMiddleware,confirmPayMiddleware
-    ,confirmOrderMiddleware, validLoginRequestMiddleware,personalInfoMiddleware,personalCollecMiddleware)
+    ,confirmOrderMiddleware, validLoginRequestMiddleware,personalInfoMiddleware,personalCollectMiddleware)
 );
 
 store.dispatch({

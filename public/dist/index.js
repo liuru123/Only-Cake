@@ -6005,9 +6005,7 @@ webpackJsonp([0],[
 
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
-	}; /**
-	    * Created by hanyile on 16/8/19.
-	    */
+	};
 
 	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 	  return {
@@ -7516,10 +7514,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by hanyile on 16/8/21.
-	 */
-
 	var LoadCakeDetail = exports.LoadCakeDetail = function LoadCakeDetail(data) {
 	  return {
 	    type: 'CAKEDETAIL_LOADED',
@@ -7558,11 +7552,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by hanyile on 16/8/18.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
-	// eslint-disable-line no-unused-vars
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // eslint-disable-line no-unused-vars
 
 
 	var CakeDetailComponent = function (_Component) {
@@ -7726,10 +7716,7 @@ webpackJsonp([0],[
 
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
-	}; /**
-	    * Created by jae on 16-8-22.
-	    */
-
+	};
 
 	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 	  return {
@@ -7757,9 +7744,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by jae on 16-8-22.
-	 */
 	var SelectedCake = exports.SelectedCake = function SelectedCake(data) {
 	  // console.log('actions/cakeDetailActions/CAKEDETAIL_LOADED:data:' + data);
 	  return {
@@ -7798,9 +7782,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-22.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 	var OrderList = function (_Component) {
@@ -8009,10 +7991,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-16.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-	// eslint-disable-line no-unused-vars
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // eslint-disable-line no-unused-vars
 
 
 	var CakesList = function (_Component) {
@@ -8058,9 +8037,6 @@ webpackJsonp([0],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * Created by jae on 16-8-14.
-	 */
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
 	};
@@ -8095,10 +8071,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-14.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-	// eslint-disable-line no-unused-vars
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // eslint-disable-line no-unused-vars
 
 
 	var Cake = function (_Component) {
@@ -8126,7 +8099,7 @@ webpackJsonp([0],[
 	            image: v.image,
 	            price: v.price,
 	            intro: v.intro,
-	            infor: v.infor,
+	            infor: v.inforc,
 	            size: v.size,
 	            style: v.style
 	          });
@@ -8245,10 +8218,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-22.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 
@@ -8325,10 +8295,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by hanyile on 16/8/17.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 	var BrandStory = function (_Component) {
@@ -9202,10 +9169,7 @@ webpackJsonp([0],[
 
 	var mapStateToProps = function mapStateToProps(state) {
 	    return state;
-	}; /**
-	    * Created by liuru on 16-10-25.
-	    */
-
+	};
 	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 	    return {
 	        loadCollection: function loadCollection(id) {
@@ -9409,10 +9373,7 @@ webpackJsonp([0],[
 
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
-	}; /**
-	    * Created by wt on 16-8-18.
-	    */
-
+	};
 	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 	  return {
 	    LogIna: function LogIna(arr) {
@@ -9448,9 +9409,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by wt on 16-8-18.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 	var LogIn = function (_Component) {
@@ -9593,9 +9552,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by wt on 16-8-18.
-	 */
 	var LoginVaild = exports.LoginVaild = function LoginVaild(text) {
 	  return {
 	    type: 'LoginVaild',
@@ -9766,10 +9722,7 @@ webpackJsonp([0],[
 
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
-	}; /**
-	    * Created by jae on 16-8-23.
-	    */
-
+	};
 	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 	  return {
 	    redirectToLoginPage: function redirectToLoginPage() {
@@ -9815,10 +9768,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-23.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-	// eslint-disable-line no-unused-vars
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // eslint-disable-line no-unused-vars
 
 
 	var MainView = function (_Component) {
@@ -9878,10 +9828,7 @@ webpackJsonp([0],[
 
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
-	}; /**
-	    * Created by jae on 16-8-23.
-	    */
-
+	};
 	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 	  return {
 	    aaaaliu: function aaaaliu() {
@@ -10081,9 +10028,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by jae on 16-8-23.
-	 */
 	var validLogin = exports.validLogin = function validLogin() {
 	  return {
 	    type: 'VALID_LOGIN'
@@ -10120,10 +10064,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-17.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-	// eslint-disable-line no-unused-vars
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // eslint-disable-line no-unused-vars
 
 
 	var Footer = function (_Component) {
@@ -10304,10 +10245,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-17.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 	// import GoogleMap from 'google-map-react';
@@ -10488,7 +10426,7 @@ webpackJsonp([0],[
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	    value: true
 	});
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -10503,199 +10441,199 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-17.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-	/*wang genwang*/
-
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 	var SignUp = function (_Component) {
-	  _inherits(SignUp, _Component);
+	    _inherits(SignUp, _Component);
 
-	  function SignUp() {
-	    _classCallCheck(this, SignUp);
+	    function SignUp() {
+	        _classCallCheck(this, SignUp);
 
-	    var _this = _possibleConstructorReturn(this, (SignUp.__proto__ || Object.getPrototypeOf(SignUp)).call(this));
+	        var _this = _possibleConstructorReturn(this, (SignUp.__proto__ || Object.getPrototypeOf(SignUp)).call(this));
 
-	    _this.state = {
-	      emailResult: false,
-	      passwordFormatResult: false,
-	      passwordSameResult: false
-	    };
-	    return _this;
-	  }
+	        _this.state = {
+	            emailResult: false,
+	            passwordFormatResult: false,
+	            passwordSameResult: false
+	        };
+	        return _this;
+	    }
 
-	  _createClass(SignUp, [{
-	    key: 'addTodo',
-	    value: function addTodo() {
-	      var arr = [];
-	      var inputn = this.refs.inputName.value.trim();
-	      var inputp = this.refs.inputPwd.value.trim();
-	      var inputre = this.refs.rePassword.value.trim();
-	      arr.push(inputn, inputp, inputre);
-	      if (arr) {
-	        this.props.addTodo(arr);
-	      }
-	      this.refs.inputName.value = '';
-	      this.refs.inputPwd.value = '';
-	      this.refs.rePassword.value = '';
-	    }
-	  }, {
-	    key: 'handleKeyPress',
-	    value: function handleKeyPress(e) {
-	      if (13 !== e.charCode) {
-	        return;
-	      }
-	      this.addTodo();
-	    }
-	  }, {
-	    key: 'checkEmail',
-	    value: function checkEmail() {
-	      var email = this.refs.inputName.value.trim();
-	      var patt = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+$/;
-	      this.state.emailResult = patt.test(email);
-	      if (!patt.test(email)) this.refs.emailWrongMessage.innerHTML = 'wrong format';else this.refs.emailWrongMessage.innerHTML = '';
-	    }
-	  }, {
-	    key: 'checkPasswordFormat',
-	    value: function checkPasswordFormat() {
-	      var password = this.refs.inputPwd.value.trim();
-	      var patt = /^.{6,13}$/;
-	      this.state.passwordFormatResult = patt.test(password);
-	      if (!patt.test(password)) this.refs.passwordWrongFormat.innerHTML = '6 - 13位字符';else this.refs.passwordWrongFormat.innerHTML = '';
-	    }
-	  }, {
-	    key: 'checkPasswordSame',
-	    value: function checkPasswordSame() {
-	      var password = this.refs.inputPwd.value.trim();
-	      var password_2 = this.refs.rePassword.value.trim();
-	      this.state.passwordSameResult = password === password_2;
-	      if (password === password_2) this.refs.passwordWrongSame.innerHTML = '';else this.refs.passwordWrongSame.innerHTML = '两次密码不一致';
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var signup = this.props.signup;
+	    _createClass(SignUp, [{
+	        key: 'addTodo',
+	        value: function addTodo() {
+	            var arr = [];
+	            var inputn = this.refs.inputName.value.trim();
+	            var inputp = this.refs.inputPwd.value.trim();
+	            var inputre = this.refs.rePassword.value.trim();
+	            arr.push(inputn, inputp, inputre);
+	            if (arr) {
+	                this.props.addTodo(arr);
+	            }
+	            this.refs.inputName.value = '';
+	            this.refs.inputPwd.value = '';
+	            this.refs.rePassword.value = '';
+	        }
+	    }, {
+	        key: 'handleKeyPress',
+	        value: function handleKeyPress(e) {
+	            if (13 !== e.charCode) {
+	                return;
+	            }
+	            this.addTodo();
+	        }
+	    }, {
+	        key: 'checkEmail',
+	        value: function checkEmail() {
+	            var email = this.refs.inputName.value.trim();
+	            var patt = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+$/;
+	            this.state.emailResult = patt.test(email);
+	            if (!patt.test(email)) this.refs.emailWrongMessage.innerHTML = 'wrong format';else this.refs.emailWrongMessage.innerHTML = '';
+	        }
+	    }, {
+	        key: 'checkPasswordFormat',
+	        value: function checkPasswordFormat() {
+	            var password = this.refs.inputPwd.value.trim();
+	            var patt = /^.{6,13}$/;
+	            this.state.passwordFormatResult = patt.test(password);
+	            if (!patt.test(password)) this.refs.passwordWrongFormat.innerHTML = '6 - 13位字符';else this.refs.passwordWrongFormat.innerHTML = '';
+	        }
+	    }, {
+	        key: 'checkPasswordSame',
+	        value: function checkPasswordSame() {
+	            var password = this.refs.inputPwd.value.trim();
+	            var password_2 = this.refs.rePassword.value.trim();
+	            this.state.passwordSameResult = password === password_2;
+	            if (password === password_2) this.refs.passwordWrongSame.innerHTML = '';else this.refs.passwordWrongSame.innerHTML = '两次密码不一致';
+	        }
+	    }, {
+	        key: 'render',
+	        value: function render() {
+	            var signup = this.props.signup;
 
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'container' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-md-10' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-md-8 ' },
-	              _react2.default.createElement(
-	                'form',
-	                { action: '#', className: 'form-horizontal col-md-12' },
+	            console.log(this.props);
+	            return _react2.default.createElement(
+	                'div',
+	                null,
 	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { htmlFor: 'inputEmail3', className: 'col-md-3 col-md-6 control-label' },
-	                    'Username:'
-	                  ),
-	                  _react2.default.createElement(
 	                    'div',
-	                    { className: 'col-md-5 col-md-6' },
-	                    _react2.default.createElement('input', { type: 'email',
-	                      className: 'form-control',
-	                      id: 'inputEmail3',
-	                      placeholder: 'Please input username',
-	                      ref: 'inputName',
-	                      onKeyPress: this.handleKeyPress.bind(this),
-	                      onBlur: this.checkEmail.bind(this)
-	                    })
-	                  ),
-	                  _react2.default.createElement(
-	                    'span',
-	                    { className: 'text-danger col-md-4', ref: 'emailWrongMessage' },
-	                    ' '
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { htmlFor: 'inputEmail3', className: 'col-md-3 col-md-6 control-label' },
-	                    'Password:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'col-md-5 col-md-6' },
-	                    _react2.default.createElement('input', { type: 'password',
-	                      className: 'form-control',
-	                      id: 'inputEmail3',
-	                      placeholder: 'Please input password',
-	                      ref: 'inputPwd',
-	                      onKeyPress: this.handleKeyPress.bind(this),
-	                      onBlur: this.checkPasswordFormat.bind(this)
-	                    })
-	                  ),
-	                  _react2.default.createElement(
-	                    'span',
-	                    { className: 'text-danger col-md-4', ref: 'passwordWrongFormat' },
-	                    ' '
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { htmlFor: 'inputEmail3', className: 'col-md-3 col-md-6 control-label' },
-	                    'RePassword:'
-	                  ),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'col-md-5 col-md-6' },
-	                    _react2.default.createElement('input', { type: 'password',
-	                      className: 'form-control',
-	                      id: 'inputEmail3',
-	                      placeholder: 'Please input password again',
-	                      ref: 'rePassword',
-	                      onKeyPress: this.handleKeyPress.bind(this),
-	                      onBlur: this.checkPasswordSame.bind(this)
-	                    })
-	                  ),
-	                  _react2.default.createElement(
-	                    'span',
-	                    { className: 'text-danger col-md-4', ref: 'passwordWrongSame' },
-	                    ' '
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'span',
-	                  { className: 'text-danger col-md-10' },
-	                  ' ',
-	                  signup
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'col-md-offset-4 col-sm-10' },
-	                  _react2.default.createElement(
-	                    'button',
-	                    { onClick: this.addTodo.bind(this), type: 'button',
-	                      className: 'btn btn-default' },
-	                    'Create new account'
-	                  )
+	                    { className: 'container' },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'col-md-10' },
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'col-md-8 ' },
+	                            _react2.default.createElement(
+	                                'form',
+	                                { action: '#', className: 'form-horizontal col-md-12' },
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'form-group' },
+	                                    _react2.default.createElement(
+	                                        'label',
+	                                        { htmlFor: 'inputEmail3',
+	                                            className: 'col-md-3 col-md-6 control-label' },
+	                                        'Username:'
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'div',
+	                                        { className: 'col-md-5 col-md-6' },
+	                                        _react2.default.createElement('input', { type: 'email',
+	                                            className: 'form-control',
+	                                            id: 'inputEmail3',
+	                                            placeholder: 'Please input username',
+	                                            ref: 'inputName',
+	                                            onKeyPress: this.handleKeyPress.bind(this),
+	                                            onBlur: this.checkEmail.bind(this)
+	                                        })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'span',
+	                                        { className: 'text-danger col-md-4', ref: 'emailWrongMessage' },
+	                                        ' '
+	                                    )
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'form-group' },
+	                                    _react2.default.createElement(
+	                                        'label',
+	                                        { htmlFor: 'inputEmail3',
+	                                            className: 'col-md-3 col-md-6 control-label' },
+	                                        'Password:'
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'div',
+	                                        { className: 'col-md-5 col-md-6' },
+	                                        _react2.default.createElement('input', { type: 'password',
+	                                            className: 'form-control',
+	                                            id: 'inputEmail3',
+	                                            placeholder: 'Please input password',
+	                                            ref: 'inputPwd',
+	                                            onKeyPress: this.handleKeyPress.bind(this),
+	                                            onBlur: this.checkPasswordFormat.bind(this)
+	                                        })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'span',
+	                                        { className: 'text-danger col-md-4', ref: 'passwordWrongFormat' },
+	                                        ' '
+	                                    )
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'form-group' },
+	                                    _react2.default.createElement(
+	                                        'label',
+	                                        { htmlFor: 'inputEmail3',
+	                                            className: 'col-md-3 col-md-6 control-label' },
+	                                        'RePassword:'
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'div',
+	                                        { className: 'col-md-5 col-md-6' },
+	                                        _react2.default.createElement('input', { type: 'password',
+	                                            className: 'form-control',
+	                                            id: 'inputEmail3',
+	                                            placeholder: 'Please input password again',
+	                                            ref: 'rePassword',
+	                                            onKeyPress: this.handleKeyPress.bind(this),
+	                                            onBlur: this.checkPasswordSame.bind(this)
+	                                        })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        'span',
+	                                        { className: 'text-danger col-md-4', ref: 'passwordWrongSame' },
+	                                        ' '
+	                                    )
+	                                ),
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    { className: 'text-danger col-md-10' },
+	                                    ' ',
+	                                    signup
+	                                ),
+	                                _react2.default.createElement(
+	                                    'div',
+	                                    { className: 'col-md-offset-4 col-sm-10' },
+	                                    _react2.default.createElement(
+	                                        'button',
+	                                        { onClick: this.addTodo.bind(this), type: 'button',
+	                                            className: 'btn btn-default' },
+	                                        'Create new account'
+	                                    )
+	                                )
+	                            )
+	                        )
+	                    )
 	                )
-	              )
-	            )
-	          )
-	        )
-	      );
-	    }
-	  }]);
+	            );
+	        }
+	    }]);
 
-	  return SignUp;
+	    return SignUp;
 	}(_react.Component);
 
 	exports.default = SignUp;
@@ -10794,9 +10732,7 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by jae on 16-8-14.
-	 */
+
 	var cake = function cake() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
 	  var action = arguments[1];
@@ -10819,9 +10755,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by jae on 16-8-22.
-	 */
 
 	var orderDetail = function orderDetail() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
@@ -10850,9 +10783,7 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by hanyile on 16/8/19.
-	 */
+
 
 	var cakeDetail = function cakeDetail() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
@@ -10914,9 +10845,7 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by wanggenwang on 16-8-22.
-	 */
+
 	var usersignup = function usersignup() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 	  var action = arguments[1];
@@ -10994,9 +10923,7 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	/**
-	 * Created by jae on 16-8-23.
-	 */
+
 	var loginusername = function loginusername() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 	  var action = arguments[1];
@@ -11048,9 +10975,7 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-	/**
-	 * Created by liuru on 16-10-25.
-	 */
+
 	var collectionCake = function collectionCake() {
 	    var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
 	    var action = arguments[1];
@@ -11085,10 +11010,7 @@ webpackJsonp([0],[
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by jae on 16-8-20.
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	// eslint-disable-line no-unused-vars
 	var Exclusive = function (_Component) {
@@ -11206,9 +11128,6 @@ webpackJsonp([0],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * Created by jae on 16-8-26.
-	 */
 	var mapStateToProps = function mapStateToProps(state) {
 	  return state;
 	};
@@ -13058,9 +12977,7 @@ webpackJsonp([0],[
 	      next(action);
 	    };
 	  };
-	}; /**
-	    * Created by hanyile on 16/8/22.
-	    */
+	};
 
 	exports.default = cakeDetailRequestMiddleware;
 
@@ -13153,9 +13070,8 @@ webpackJsonp([0],[
 	      next(action);
 	    };
 	  };
-	}; /**
-	    * Created by jae on 16-8-22.
-	    */
+	};
+
 	exports.default = orderRequestMiddleware;
 
 /***/ },
@@ -13176,9 +13092,6 @@ webpackJsonp([0],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * Created by qinqi on 16-8-23.
-	 */
 	var confirmOrderMiddleware = function confirmOrderMiddleware(store) {
 	  return function (next) {
 	    return function (action) {
@@ -13253,9 +13166,8 @@ webpackJsonp([0],[
 	      next(action);
 	    };
 	  };
-	}; /**
-	    * Created by jae on 16-8-23.
-	    */
+	};
+
 	exports.default = validLoginRequestMiddleware;
 
 /***/ },
@@ -13315,9 +13227,6 @@ webpackJsonp([0],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * Created by wt on 16-8-24.
-	 */
 	var confirmPayMiddleware = function confirmPayMiddleware(store) {
 	  return function (next) {
 	    return function (action) {
@@ -13431,9 +13340,8 @@ webpackJsonp([0],[
 	            next(action);
 	        };
 	    };
-	}; /**
-	    * Created by liuru on 16-10-25.
-	    */
+	};
+
 	exports.default = collectionMiddleWare;
 
 /***/ },

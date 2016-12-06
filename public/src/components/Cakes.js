@@ -1,6 +1,4 @@
-/**
- * Created by jae on 16-8-14.
- */
+
 import React, {Component} from 'react';// eslint-disable-line no-unused-vars
 import CakeItem from './CakeItem';
 
@@ -19,7 +17,7 @@ class Cake extends Component {
                           image={v.image}
                           price={v.price}
                           intro={v.intro}
-                          infor={v.infor}
+                          infor={v.inforc}
                           size={v.size}
                           style={v.style}
                 />
